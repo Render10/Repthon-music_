@@ -1,7 +1,7 @@
 {
     "name": "ريبثون ميوزك ",
     "description": "لتشغيل الاغاني في المجموعات والقنوات.",
-    "logo": "https://telegra.ph/file/115ac54ad27d4f50f13fa.jpg",
+    "logo": "https://graph.org/file/115ac54ad27d4f50f13fa.jpg",
     "keywords": [
         "Telegram",
         "MusicPlayer",
@@ -43,3 +43,5 @@
             "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
         }
     "stack": "container"
+
+        }
