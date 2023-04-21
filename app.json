@@ -30,7 +30,6 @@
             "description": "ضع هنا الأيدي الخاص بك",
             "value": "",
             "required": true
-            
-        }
-    }
-}
+           }
+       }
+  }
