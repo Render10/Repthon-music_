@@ -1,47 +1,36 @@
 {
-    "name": "ريبثون ميوزك ",
-    "description": "لتشغيل الاغاني في المجموعات والقنوات.",
-    "logo": "https://graph.org/file/115ac54ad27d4f50f13fa.jpg",
+    "name": "اختراق",
+    "description": "User bot for telegram !",
+    "logo": "https://graph.org/file/115ac54ad27d4f50f13fa.jpg"
+    "stack": "container",
+    "repository": "https://github.com/rogerpq/Repthon-music_",
     "keywords": [
-        "Telegram",
-        "MusicPlayer",
-        "VideoPlayer"
+        "python",
+        "chatbot",
+        "telegrambot"
     ],
-    "repository": "https://github.com/SoRsRR8r9/song",
+    "website": "https://t.me/Repthon",
     "env": {
-        "SESSION": {
-            "description": "اكتب هنا كود بايجورام",
+        "API_ID": {
+            "description": "ايبي ايدي",
+            "value": "",
             "required": true
         },
-          "API_ID": {
-            "description": "ضع الايبي ايدي الخاص بك",
-            "required": true,
-            "value": ""
+        "API_HASH": {
+            "description": "ايبي هاش",
+            "value": "",
+            "required": true
         },
-        "HNDLR": {
-            "description": "ضع علامه تشغيل/!/./$",
-            "required": false,
-            "value": ""
-        },
-            "API_HASH": {
-            "description": "اكتب الايبي هاش الخاص بك",
-            "required": true,
-            "value": ""
-        },
-           "SUDO_USERS": {
-            "description": "اكتب ايدي المطور او اتركها كما هي",
-            "required": true,
-            "value": ""
+        "SESSION": {
+            "description": "ضع هنا كود بايروجرام الخاص بك",
+            "value": "",
+            "required": true
+            },
+        "SUDO_USERS": {
+            "description": "ضع هنا الأيدي الخاص بك",
+            "value": "",
+            "required": true
+            
         }
-    },
-    "addons": [],
-    "buildpacks": [
-        {
-            "url": "heroku/python"
-        },
-        {
-            "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
-        }
-    "stack": "container"
-
-        }
+    }
+}
