@@ -8,8 +8,8 @@
         "python",
         "chatbot",
         "telegrambot"
-    ],
-    "website": "https://t.me/Repthon",
+        ]
+    "website": ""
     "env": {
         "API_ID": {
             "description": "ايبي ايدي",
