@@ -30,7 +30,7 @@
     "SESSION": {
       "description": "كود بايروجرام استخرج عن طريق البوت @Bot_string_51_bot واختار بايروجرام",
       "required": true,
-      "value": "ANYTHING"
+      "value": ""
     },
     "API_ID": {
       "description": "ايبي ايدي",
