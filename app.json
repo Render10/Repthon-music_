@@ -42,7 +42,7 @@
       "required": true,
       "value": ""
     },
-    "OWNER_ID": {
+    "SUDO_USERS": {
       "description": "ايدي المالك اذا ما تعرفه اتركه كما هو",
       "required": true,
       "value": "5502537272"
