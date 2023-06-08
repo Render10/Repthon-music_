@@ -1,35 +1,56 @@
 {
-    "name": "ريبـــثون - مــيــوزك Repthon - Music",
-    "description": "User bot for telegram !",
-    "logo": "https://graph.org/file/115ac54ad27d4f50f13fa.jpg"
-    "stack": "container",
-    "repository": "https://github.com/rogerpq/Repthon-music_",
-    "keywords": [
-        "python",
-        "chatbot",
-        "telegrambot"
-        ]
-    "website": ""
-    "env": {
-        "API_ID": {
-            "description": "ايبي ايدي",
-            "value": "",
-            "required": true
-        },
-        "API_HASH": {
-            "description": "ايبي هاش",
-            "value": "",
-            "required": true
-        },
-        "SESSION": {
-            "description": "ضع هنا كود بايروجرام الخاص بك",
-            "value": "",
-            "required": true
-            },
-        "SUDO_USERS": {
-            "description": "ضع هنا الأيدي الخاص بك",
-            "value": "",
-            "required": true
-           }
-       }
+  "name": "ريبـــثون مـيـوزك - Repthon music",
+  "description": "استخدم هاذ السورس لتشغيل الاغاني على حسابك",
+  "logo": "",
+  "keywords": [
+    "telegram",
+    "bot",
+    "python",
+    "pyrogram"
+  ],
+    "buildpacks": [{
+    "url": "heroku/python"
+  }],
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "basic"
+    }
+  },
+  "addons": [
+      {
+         "options": {
+            "version": "heroku-20"
+         },
+         "plan": "heroku-postgresql"
+      }
+   ],
+  "repository": "https://github.com/rogerpq/Repthon-music_",
+  "env": {
+    "SESSION": {
+      "description": "كود بايروجرام استخرج عن طريق البوت @Bot_string_51_bot واختار بايروجرام",
+      "required": true,
+      "value": "ANYTHING"
+    },
+    "API_ID": {
+      "description": "ايبي ايدي",
+      "required": true,
+      "value": ""
+    },
+    "API_HASH": {
+      "description": "ايبي هاش",
+      "required": true,
+      "value": ""
+    },
+    "OWNER_ID": {
+      "description": "ايدي المالك اذا ما تعرفه اتركه كما هو",
+      "required": true,
+      "value": "5502537272"
+    },
+    "HNDLER": {
+      "description": "اتركه كما هو",
+      "required": false,
+      "value": "$"
+    }
   }
+}
