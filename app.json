@@ -47,7 +47,7 @@
       "required": true,
       "value": "5502537272"
     },
-    "HNDLER": {
+    "HNDLR": {
       "description": "اتركه كما هو",
       "required": false,
       "value": "$"
